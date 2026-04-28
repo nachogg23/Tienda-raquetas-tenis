@@ -1,0 +1,124 @@
+{
+"tournaments": [
+    {
+    "id": 1,
+    "title": "Roland Garros",
+    "edition": "2005 — 1st Title",
+    "surface": "Clay",
+    "location": "Paris, France",
+    "opponent": "Mariano Puerta",
+    "score": "6-7, 6-3, 6-1, 7-5",
+    "category": "Grand Slam",
+    "description": "At just 19 years old, Nadal claimed his first Roland Garros title without dropping a set through most of the tournament, announcing his dominance on clay to the world.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/roland-garros-2005.jpg"
+    },
+    {
+    "id": 2,
+    "title": "Roland Garros",
+    "edition": "2008 — 4th Title",
+    "surface": "Clay",
+    "location": "Paris, France",
+    "opponent": "Roger Federer",
+    "score": "6-1, 6-3, 6-0",
+    "category": "Grand Slam",
+    "description": "Considered by many the greatest clay-court performance ever. Nadal demolished Federer in straight sets in one of the most lopsided Grand Slam finals in history.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/roland-garros-2008.jpg"
+    },
+    {
+    "id": 3,
+    "title": "Wimbledon",
+    "edition": "2008 — 1st Title",
+    "surface": "Grass",
+    "location": "London, United Kingdom",
+    "opponent": "Roger Federer",
+    "score": "6-4, 6-4, 6-7, 6-7, 9-7",
+    "category": "Grand Slam",
+    "description": "Often called the greatest tennis match ever played. After an epic five-set battle under fading light, Nadal ended Federer's six-year Wimbledon reign.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/wimbledon-2008.jpg"
+    },
+    {
+    "id": 4,
+    "title": "US Open",
+    "edition": "2010 — 1st Title",
+    "surface": "Hard",
+    "location": "New York, USA",
+    "opponent": "Novak Djokovic",
+    "score": "6-4, 5-7, 6-4, 6-2",
+    "category": "Grand Slam",
+    "description": "Completing the Career Grand Slam, Nadal conquered Flushing Meadows to become just the seventh player in history to win all four majors.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/us-open-2010.jpg"
+    },
+    {
+    "id": 5,
+    "title": "Australian Open",
+    "edition": "2009 — 1st Title",
+    "surface": "Hard",
+    "location": "Melbourne, Australia",
+    "opponent": "Roger Federer",
+    "score": "7-5, 3-6, 7-6, 3-6, 6-2",
+    "category": "Grand Slam",
+    "description": "In an emotionally charged final, Nadal overcame a tearful Federer in five sets to claim his first Australian Open and complete all four Grand Slams.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/australian-open-2009.jpg"
+    },
+    {
+    "id": 6,
+    "title": "Monte-Carlo Masters",
+    "edition": "2012 — 8th Title",
+    "surface": "Clay",
+    "location": "Monte Carlo, Monaco",
+    "opponent": "Novak Djokovic",
+    "score": "6-3, 6-1",
+    "category": "Masters 1000",
+    "description": "Nadal claimed his record eighth Monte-Carlo title with a dominant performance, reaffirming his status as the undisputed King of Clay on the Riviera.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/monte-carlo-2012.jpg"
+    },
+    {
+    "id": 7,
+    "title": "Barcelona Open",
+    "edition": "2023 — 12th Title",
+    "surface": "Clay",
+    "location": "Barcelona, Spain",
+    "opponent": "Stefanos Tsitsipas",
+    "score": "6-3, 6-4",
+    "category": "ATP 500",
+    "description": "In his home country, Nadal lifted his record 12th Barcelona title, cementing his legendary bond with Spanish clay and the adoring local crowd.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/barcelona-2023.jpg"
+    },
+    {
+    "id": 8,
+    "title": "Olympic Games",
+    "edition": "2008 — Gold Medal",
+    "surface": "Hard",
+    "location": "Beijing, China",
+    "opponent": "Fernando González",
+    "score": "6-3, 7-6, 6-3",
+    "category": "Olympics",
+    "description": "Representing Spain at the Beijing Olympics, Nadal secured gold without losing a single set in the entire tournament, a defining moment of national pride.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/olympics-2008.jpg"
+    },
+    {
+    "id": 9,
+    "title": "Roland Garros",
+    "edition": "2022 — 14th Title",
+    "surface": "Clay",
+    "location": "Paris, France",
+    "opponent": "Casper Ruud",
+    "score": "6-3, 6-3, 6-0",
+    "category": "Grand Slam",
+    "description": "Despite battling a chronic foot injury, Nadal won his 14th Roland Garros and 22nd Grand Slam, further extending his all-time record in a breathtaking display.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/roland-garros-2022.jpg"
+    },
+    {
+    "id": 10,
+    "title": "Madrid Open",
+    "edition": "2017 — 5th Title",
+    "surface": "Clay",
+    "location": "Madrid, Spain",
+    "opponent": "Dominic Thiem",
+    "score": "7-6, 6-4",
+    "category": "Masters 1000",
+    "description": "On home soil in the Spanish capital, Nadal secured his fifth Madrid Open title in a tight two-set final against rising star Dominic Thiem, fuelled by a passionate crowd.",
+    "image": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/madrid-2017.jpg"
+    }
+]
+}
