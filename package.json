@@ -1,12 +1,5 @@
 {
-    "name": "Rafa nadal",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "dependencies": {
-        "bootstrap": "^5.3.8",
-        "json-server": "^1.0.0-beta.15"
-    },
-    "author": "",
-    "license": "ISC"
+"scripts": {
+    "start": "json-server json/db.json --port 3000"
+}
 }

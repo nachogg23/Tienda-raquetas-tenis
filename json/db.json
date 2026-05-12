@@ -1,0 +1,148 @@
+{
+"rackets": [
+    {
+    "id": 1,
+    "name": "Pro Staff RF97 Autograph",
+    "brand": "Wilson",
+    "category": "Control",
+    "price": 249.99,
+    "weight": "340g",
+    "description": "The racket of Roger Federer. Exceptional feel and precision for advanced players who demand total control.",
+    "image": "https://res.cloudinary.com/dbg9mg5yu/image/upload/v1778588679/wilson-pro-staff-rf97-autograph-2018_ogmjv3.jpg",
+    "rating": 4.9,
+    "inStock": true
+    },
+    {
+    "id": 2,
+    "name": "Babolat Pure Aero",
+    "brand": "Babolat",
+    "category": "Power",
+    "price": 229.99,
+    "weight": "300g",
+    "description": "Rafael Nadal's weapon. Aerodynamic frame generates brutal topspin and explosive power from the baseline.",
+    "image": "https://res.cloudinary.com/dbg9mg5yu/image/upload/v1778588915/shopping_ykt7wa.webp",
+    "rating": 4.8,
+    "inStock": true
+    },
+    {
+    "id": 3,
+    "name": "Head Speed Pro",
+    "brand": "Head",
+    "category": "Control",
+    "price": 219.99,
+    "weight": "310g",
+    "description": "Novak Djokovic's choice. Balanced blend of speed, control and comfort for aggressive all-court players.",
+    "image": "https://res.cloudinary.com/dbg9mg5yu/image/upload/v1778589078/shopping_1_voem5j.webp",
+    "rating": 4.9,
+    "inStock": true
+    },
+    {
+    "id": 4,
+    "name": "Yonex EZONE 98",
+    "brand": "Yonex",
+    "category": "Power",
+    "price": 199.99,
+    "weight": "305g",
+    "description": "Isometric head shape expands the sweet spot. Incredible power with surprising comfort on every shot.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.7,
+    "inStock": true
+    },
+    {
+    "id": 5,
+    "name": "Tecnifibre TF-X1 300",
+    "brand": "Tecnifibre",
+    "category": "Beginner",
+    "price": 139.99,
+    "weight": "300g",
+    "description": "Perfect entry point for players stepping up their game. Light, forgiving and loaded with power for all court levels.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.4,
+    "inStock": true
+    },
+    {
+    "id": 6,
+    "name": "Prince Textreme Tour 100P",
+    "brand": "Prince",
+    "category": "Control",
+    "price": 189.99,
+    "weight": "320g",
+    "description": "Textreme carbon fibre delivers unmatched stability. Surgically precise for players who live at the net.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.5,
+    "inStock": false
+    },
+    {
+    "id": 7,
+    "name": "Dunlop CX 200",
+    "brand": "Dunlop",
+    "category": "Control",
+    "price": 179.99,
+    "weight": "315g",
+    "description": "Sonic Core technology absorbs vibration while maintaining crisp feedback. A player's racket through and through.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.6,
+    "inStock": true
+    },
+    {
+    "id": 8,
+    "name": "Babolat Pure Drive",
+    "brand": "Babolat",
+    "category": "Power",
+    "price": 219.99,
+    "weight": "300g",
+    "description": "The world's best-selling racket. Effortless power and spin from any position on the court.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.8,
+    "inStock": true
+    },
+    {
+    "id": 9,
+    "name": "Wilson Clash 100 Pro",
+    "brand": "Wilson",
+    "category": "Beginner",
+    "price": 209.99,
+    "weight": "310g",
+    "description": "FreeFlex technology bends in every direction to produce effortless power with tour-level control and comfort.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.7,
+    "inStock": true
+    },
+    {
+    "id": 10,
+    "name": "Head Radical MP",
+    "brand": "Head",
+    "category": "Power",
+    "price": 199.99,
+    "weight": "295g",
+    "description": "Andre Agassi's legend reborn. Graphene 360 offers a perfect mix of power and feel for the modern baseliner.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.6,
+    "inStock": false
+    },
+    {
+    "id": 11,
+    "name": "Yonex VCore Pro 97",
+    "brand": "Yonex",
+    "category": "Control",
+    "price": 214.99,
+    "weight": "320g",
+    "description": "Hyper MG frame delivers sharp precision and buttery feel. Loved by professionals for its exceptional touch.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.7,
+    "inStock": true
+    },
+    {
+    "id": 12,
+    "name": "Tecnifibre T-Fight RS 300",
+    "brand": "Tecnifibre",
+    "category": "Beginner",
+    "price": 119.99,
+    "weight": "300g",
+    "description": "RS technology reduces shock and vibration for a smooth, comfortable experience. Ideal for recreational players.",
+    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
+    "rating": 4.3,
+    "inStock": true
+    }
+]
+}
