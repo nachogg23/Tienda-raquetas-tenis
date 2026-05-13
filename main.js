@@ -1,11 +1,20 @@
-const API_URL = "http://localhost:3000/rackets";
+const fetchRackets = async () => {
+try {
+    const response = await fetch('./json/db.json');
+    const data = await response.json();
+    return data.rackets;
+} catch (error) {
+    console.error("Failed to fetch rackets:", error);
+    return null;
+}
+};
 
-// ── STATE ──────────────────────────────────────────────────
+
 let allRackets = [];
 let cartCount = 0;
 let activeFilter = "all";
 
-// ── DOM REFERENCES ─────────────────────────────────────────
+
 const racketGrid    = document.getElementById("racketGrid");
 const loadingState  = document.getElementById("loadingState");
 const errorState    = document.getElementById("errorState");
@@ -13,24 +22,8 @@ const countDisplay  = document.getElementById("countDisplay");
 const filterButtons = document.querySelectorAll(".filterBtn");
 const cartBadge     = document.querySelector(".cartBadge");
 
-// ── FETCH DATA ─────────────────────────────────────────────
-const fetchRackets = async () => {
-try {
-    const response = await fetch(API_URL);
 
-    if (!response.ok) {
-    throw new Error(`HTTP error — status: ${response.status}`);
-    }
 
-    const data = await response.json();
-    return data;
-} catch (error) {
-    console.error("Failed to fetch rackets:", error);
-    return null;
-}
-};
-
-// ── GET CATEGORY BADGE CLASS ────────────────────────────────
 const getCategoryBadgeClass = (category) => {
 const classMap = {
     Power:    "badgePower",
@@ -40,7 +33,7 @@ const classMap = {
 return classMap[category] || "badgePower";
 };
 
-// ── RENDER STARS ────────────────────────────────────────────
+
 const renderStars = (rating) => {
 const fullStars = Math.floor(rating);
 const hasHalf   = rating % 1 >= 0.5;
@@ -56,7 +49,7 @@ if (hasHalf) {
 return starsHtml;
 };
 
-// ── RENDER CARD ─────────────────────────────────────────────
+
 const renderRacketCard = (racket, index) => {
 const stockClass    = racket.inStock ? "badgeInStock" : "badgeOutOfStock";
 const stockLabel    = racket.inStock ? "In Stock" : "Sold Out";
@@ -110,7 +103,7 @@ return `
 `;
 };
 
-// ── DISPLAY RACKETS ─────────────────────────────────────────
+
 const displayRackets = (rackets) => {
 racketGrid.innerHTML = "";
 
@@ -131,7 +124,7 @@ racketGrid.innerHTML = cardsHtml;
 updateCount(rackets.length);
 };
 
-// ── FILTER LOGIC ────────────────────────────────────────────
+
 const filterRackets = (category) => {
 activeFilter = category;
 
@@ -142,12 +135,12 @@ const filtered = category === "all"
 displayRackets(filtered);
 };
 
-// ── UPDATE COUNT ────────────────────────────────────────────
+
 const updateCount = (count) => {
 countDisplay.textContent = count;
 };
 
-// ── CART HANDLER ────────────────────────────────────────────
+
 const handleAddToCart = (id, name) => {
 cartCount++;
 cartBadge.textContent = cartCount;
@@ -160,7 +153,7 @@ setTimeout(() => {
 console.log(`Added to cart: [${id}] ${name}`);
 };
 
-// ── FILTER BUTTON EVENTS ────────────────────────────────────
+
 const initFilterButtons = () => {
 filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -171,7 +164,7 @@ filterButtons.forEach((btn) => {
 });
 };
 
-// ── INIT ────────────────────────────────────────────────────
+
 const init = async () => {
 loadingState.style.display = "flex";
 errorState.classList.add("d-none");
@@ -190,8 +183,8 @@ displayRackets(allRackets);
 initFilterButtons();
 };
 
-// ── CART BADGE TRANSITION ───────────────────────────────────
+
 cartBadge.style.transition = "transform 0.15s ease";
 
-// ── START ───────────────────────────────────────────────────
+
 init();
