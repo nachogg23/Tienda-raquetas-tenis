@@ -82,7 +82,7 @@ return `
 
         <div class="cardFooter mt-auto">
             <div>
-            <p class="cardPrice">$${racket.price.toFixed(2)}</p>
+            <p class="cardPrice">€${racket.price.toFixed(2)}</p>
             <div class="cardRating">
                 ${stars}
                 <span class="cardRatingNumber">${racket.rating}</span>
