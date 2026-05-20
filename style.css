@@ -209,28 +209,22 @@ box-shadow: 0 14px 40px rgba(76, 175, 80, 0.45);
 
 .heroCourtLines {
 position: absolute;
-right: 0;
-top: 0;
-bottom: 0;
-width: 45%;
-display: flex;
-align-items: stretch;
-gap: 3rem;
-padding: 3rem;
-pointer-events: none;
+right: 20%;
+top: 45%;
+transform: translate(50%, -50%) perspective(600px) rotateX(25deg);
 z-index: 1;
+pointer-events: none;
+opacity: 0.8;
+}
+
+.courtSvg {
+width: 500px;
+height: auto;
+filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
 }
 
 .courtLine {
-border: 1px solid rgba(240, 212, 176, 0.12);
-}
-
-.courtLine:nth-child(2) {
-border-color: rgba(240, 212, 176, 0.07);
-}
-
-.courtLine:nth-child(3) {
-border-color: rgba(240, 212, 176, 0.04);
+display: none;
 }
 
 
@@ -618,3 +612,6 @@ letter-spacing: 0.1em;
 .statDivider { display: none; }
 .filterSection { top: 56px; }
 }
+
+
+
