@@ -1,6 +1,6 @@
 # 🎾 ACE COURT — Tennis Racket Store
 
-> A premium tennis racket catalog landing page inspired by the clay courts of Roland Garros. Built with HTML, CSS, JavaScript, Bootstrap, and JSON Server.
+> A premium tennis racket catalog landing page inspired by the clay courts of Roland Garros. Built with HTML, CSS, JavaScript, Bootstrap, and JSON Server. 
 
 ---
 
